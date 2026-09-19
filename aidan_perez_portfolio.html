@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aidan Perez - Portfolio</title>
+    <style>
+        /* Basic, old-school custom CSS */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #111;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+        }
+
+        h1, h2, h3 {
+            font-family: "Times New Roman", Times, serif;
+            color: #000;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #551A8B;
+        }
+
+        /* Utility classes for layout */
+        .contact-info {
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        .contact-info a {
+            margin-right: 15px;
+        }
+
+        .section-item {
+            margin-bottom: 20px;
+        }
+
+        .flex-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .date, .location {
+            color: #555;
+            font-style: italic;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        code {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border: 1px solid #ddd;
+            font-size: 0.95em;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        td {
+            padding: 5px 0;
+            vertical-align: top;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aidan Perez</h1>
+        <div class="contact-info">
+            <a href="mailto:aperez5506@gmail.com">aperez5506@gmail.com</a>
+            <span>|</span>
+            <a href="tel:319-677-4257">319-677-4257</a>
+            <span>|</span>
+            <a href="https://www.linkedin.com/in/aidan-perez-85842a363" target="_blank">LinkedIn Profile</a>
+        </div>
+        <p>
+            Aspiring Property & Casualty Actuary and Computational Applied Mathematics student 
+            with a strong foundation in statistical modeling, data analysis, and technical computing.
+        </p>
+    </header>
+
+    <section>
+        <h2>Actuarial Exams</h2>
+        <ul>
+            <li><strong>Exam P (Probability):</strong> Preliminary Pass</li>
+            <li><strong>Exam FM (Financial Mathematics):</strong> Sitting December 2026</li>
+            <li><strong>MAS-I (Modern Actuarial Statistics I):</strong> Planned April/May 2027</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        
+        <div class="section-item">
+            <div class="flex-header">
+                <span class="title">East Tennessee State University</span>
+                <span class="location">Johnson City, TN</span>
+            </div>
+            <div class="flex-header">
+                <span>BS in Mathematics (Concentrations: Computational Applied, Statistics)</span>
+                <span class="date">Expected May 2028</span>
+            </div>
+            <ul>
+                <li><strong>GPA:</strong> 4.0 / 4.0</li>
+                <li><strong>Minor:</strong> Computing</li>
+                <li><strong>Relevant Coursework:</strong> Calculus-Based Probability and Statistics, Statistical Modeling, Database Fundamentals, Data Analysis & Visualization</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="flex-header">
+                <span class="title">Iowa Western Community College</span>
+                <span class="location">Council Bluffs, IA</span>
+            </div>
+            <div class="flex-header">
+                <span>AS in Mathematics</span>
+                <span class="date">August 2022 &ndash; May 2024</span>
+            </div>
+            <ul>
+                <li><strong>GPA:</strong> 4.0 / 4.0</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <td class="skill-category">Programming Languages:</td>
+                <td><code>Python</code>, <code>R</code>, <code>C#</code>, <code>SQL</code></td>
+            </tr>
+            <tr>
+                <td class="skill-category">Data & Math Libraries:</td>
+                <td><code>Pandas</code>, <code>NumPy</code>, <code>SciPy</code></td>
+            </tr>
+            <tr>
+                <td class="skill-category">Software & Tools:</td>
+                <td>Power BI, Jupyter Notebook, LaTeX, Excel</td>
+            </tr>
+            <tr>
+                <td class="skill-category">Domain Knowledge:</td>
+                <td>Data Analysis, Statistical Modeling, Financial Tracking, Mathematical Computing</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Selected Projects & Research</h2>
+        
+        <div class="section-item">
+            <div class="flex-header">
+                <span class="title">Credit Card Risk Analysis</span>
+                <span class="date">Python, Pandas</span>
+            </div>
+            <ul>
+                <li>Investigated credit card default probability across various demographic variables, including education levels and marital status.</li>
+                <li>Developed data aggregation scripts and statistical visualizations to identify key risk factors in the dataset.</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="flex-header">
+                <span class="title">Linear Regression Modeling</span>
+                <span class="date">R</span>
+            </div>
+            <ul>
+                <li>Constructed and evaluated multiple linear regression models to analyze predictive variables within financial datasets.</li>
+                <li>Tested models for multicollinearity and homoscedasticity to ensure statistical validity of the findings.</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="flex-header">
+                <span class="title">The Quicksort Algorithm Analysis</span>
+                <span class="date">LaTeX</span>
+            </div>
+            <ul>
+                <li>Authored a comprehensive technical paper detailing algorithmic time-complexity and performance metrics of sorting arrays.</li>
+                <li>Utilized LaTeX for strict mathematical typesetting and accurate formatting of academic references.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.85em; color: #777; border-top: 1px solid #ccc; padding-top: 20px;">
+        <p>&copy; 2026 Aidan Perez. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
