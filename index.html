@@ -249,6 +249,21 @@
                 </p>
             </ul>
         </div>
+        <div class="section-item">
+        <div class="flex-header">
+            <span class="title">Auto Insurance Pricing: GLM vs. Machine Learning</span>
+            <span class="date">Python, pandas, statsmodels, XGBoost, Seaborn</span>
+        </div>
+        <ul>
+            <li>Engineered an auto insurance pricing dataset by joining frequency and severity data, normalizing pure premium by policy exposure, and capping 99th-percentile tail severities to simulate a Basic Limit.</li>
+            <li>Built an industry-standard two-step GLM (Poisson for frequency, Gamma for severity) and a Tweedie GLM, evaluating their risk discrimination capabilities using Lorenz curves and Gini indices.</li>
+            <li>Trained an XGBoost Regressor as a challenger model, utilizing a Double-Lift chart to diagnose tail-end severity overfitting.</li>
+            <li>This was my first end-to-end pricing project. It was fascinating to experience the real-world tension between the high predictive power of gradient boosting and the interpretability and stability of traditional GLMs in a highly regulated environment.</li>
+        </ul>
+        <p>
+            <a href="https://github.com/Peppers44/Peppers44.github.io/blob/main/PricingProject.ipynb" target="_blank">View the Python Notebook</a>
+    </p>
+</div>
     </section>
     
 
